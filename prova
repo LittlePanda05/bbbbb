@@ -1,0 +1,9 @@
+lista=[]
+num=input("digite um número [0 para sair]: ")
+while True:
+   if num==0:
+   break
+   num=input("digite um número [0 para sair]: ")
+   lista.append(num)
+    
+print(lista)
